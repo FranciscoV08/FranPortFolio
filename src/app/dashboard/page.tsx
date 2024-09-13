@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 export default function NamePage() {
@@ -6,7 +7,7 @@ export default function NamePage() {
             <div className="flex min-h-screen bg-[#161513]">
                 <div className="mx-auto">
                     <div className="mx-auto mb-[40px] mt-[98px] h-[213px] w-[213px] overflow-hidden rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
-                        <img src="https://i.imgur.com/4U5tBXC.png" alt="" />
+                        <Image src="https://i.imgur.com/4U5tBXC.png" alt="" />
                     </div>
                     <h1 className="max-w-screen-sm text-center text-[55px] font-extrabold text-white">
                         Hago codigo <br />
